@@ -19,6 +19,7 @@ app.get('/', async (req, res) => {
     res.send(`
       <h1>🚀 Node App Déployée !</h1>
       <p>Statut : <b>Opérationnel</b></p>
+      <p>Première modification pour déploiement automatiser</p>
       <p>Connexion DB (VM3) : ✅ Réussie à ${dbRes.rows[0].now}</p>
     `);
   } catch (err) {
